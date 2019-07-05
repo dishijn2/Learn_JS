@@ -1,2 +1,2 @@
 # Learn_JS
-Learning HTML,CSS,Javascript 
+https://www.w3schools.com/js/default.asp
