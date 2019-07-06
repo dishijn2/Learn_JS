@@ -8,10 +8,9 @@ Writing into the HTML output using document.write().
                     <script>
                     document.write(5 + 6);
                     </script>
+                    
 Writing into an alert box, using window.alert().
                Using document.write() after an HTML document is loaded, will delete all existing HTML
 
 Writing into the browser console, using console.log().
-              <script>
-              window.alert(5 + 6);
-              </script>
+              For debugging purposes, you can use the console.log() method to display data.
