@@ -4,3 +4,24 @@ An HTML web page has finished loading
 An HTML input field was changed
 An HTML button was clicked
 
+<!DOCTYPE html>
+<html>
+<body>
+
+<button onclick="document.getElementById('demo').innerHTML=Date()">The time is?</button>
+
+<p id="demo"></p>
+
+</body>
+</html>
+
+OR
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<button onclick="this.innerHTML=Date()">The time is?</button>
+
+</body>
+</html>
