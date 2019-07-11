@@ -20,3 +20,34 @@ function myFunction() {
 
 </body>
 </html>
+
+
+
+
+
+// Length of a string
+
+<h2>JavaScript String Properties</h2>
+
+<p>The length property returns the length of a string:</p>
+
+<p id="demo"></p>
+
+<script>
+var txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+document.getElementById("demo").innerHTML = txt.length;
+</script>
+
+
+
+
+
+//Finding a String in a String
+var str = "Please locate where 'locate' occurs!";
+var pos = str.indexOf("locate");
+
+
+
+
+The search() method cannot take a second start position argument.
+The indexOf() method cannot take powerful search values (regular expressions).
