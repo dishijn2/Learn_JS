@@ -1,0 +1,45 @@
+JavaScript arrays are used to store multiple values in a single variable.
+
+
+//Looping array elements
+
+
+<p>The best way to loop through an array is using a standard for loop:</p>
+
+<p id="demo"></p>
+
+<script>
+var fruits, text, fLen, i;
+fruits = ["Banana", "Orange", "Apple", "Mango"];
+fLen = fruits.length;
+
+text = "<ul>";
+for (i = 0; i < fLen; i++) {
+  text += "<li>" + fruits[i] + "</li>";
+}
+text += "</ul>";
+
+document.getElementById("demo").innerHTML = text;
+</script>
+
+
+
+// or we can use Array.forEach() function:
+
+
+<script>
+var fruits, text;
+fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+text = "<ul>";
+fruits.forEach(myFunction);
+text += "</ul>";
+document.getElementById("demo").innerHTML = text;
+
+function myFunction(value) {
+  text += "<li>" + value + "</li>";
+} 
+</script>
+
+
+
