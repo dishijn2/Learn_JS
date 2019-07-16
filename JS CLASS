@@ -1,0 +1,34 @@
+class Car {
+  constructor(brand) {
+    this.carname = brand;
+  }
+  present(x) {
+    return x + ", I have a " + this.carname;
+  }
+}
+
+mycar = new Car("Ford");
+document.getElementById("demo").innerHTML = mycar.present("Hello");
+
+
+
+
+STATIC METHOD
+
+class Car {
+  constructor(brand) {
+    this.carname = brand;
+  }
+  static hello() {
+    return "Hello!!";
+  }
+}
+
+mycar = new Car("Ford");
+
+//Call 'hello()' on the class Car:
+document.getElementById("demo").innerHTML = Car.hello();
+
+//and NOT on the 'mycar' object:
+//document.getElementById("demo").innerHTML = mycar.hello();
+//this would raise an error.
