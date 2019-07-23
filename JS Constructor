@@ -1,0 +1,26 @@
+It is considered good practice to name constructor functions with an upper-case first letter.
+
+function Person(first, last, age, eye) {
+  this.firstName = first;
+  this.lastName = last;
+  this.age = age;
+  this.eyeColor = eye;
+}
+
+
+
+This way object properties can have default values.
+
+function Person(first, last, age, eyecolor) {
+  this.firstName = first;
+  this.lastName = last;
+  this.age = age;
+  this.eyeColor = eyecolor;
+  this.nationality = "English";
+}
+
+
+
+
+
+
