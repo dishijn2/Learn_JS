@@ -5,6 +5,7 @@ JavaScript often abbreviated as JS, is a high-level, interpreted programming lan
 
 
 JavaScript Best Practices
+
 ~ Avoid global variables, avoid new, avoid ==, avoid eval()
 
 ~ It is a good coding practice to initialize variables when you declare them.
@@ -17,6 +18,7 @@ JavaScript Best Practices
 
 
 JavaScript Common Mistakes
+
 ~ JavaScript programs may generate unexpected results if a programmer accidentally uses an assignment operator (=), instead of a comparison operator (==) in an if statement.
 
 ~ It is a default JavaScript behavior to close a statement automatically at the end of a line.
