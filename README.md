@@ -24,3 +24,23 @@ JavaScript Common Mistakes
 ~ It is a default JavaScript behavior to close a statement automatically at the end of a line.
 
 ~ JavaScript will close the return statement at the end of the line, because it is a complete statement.
+
+
+
+ECMAScript 5 - JavaScript 5
+
+The "use strict" Directive
+"use strict" defines that the JavaScript code should be executed in "strict mode".
+With strict mode you can, for example, not use undeclared variables.
+
+String.trim()
+String.trim() removes whitespace from both sides of a string.
+
+Array.isArray()
+The isArray() method checks whether an object is an array.
+
+Array.forEach()
+The forEach() method calls a function once for each array element.
+
+
+
