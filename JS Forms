@@ -33,6 +33,10 @@ function myFunction() {
 </html> 
 
 
+Property	Description
+
+checkValidity()	Returns true if an input element contains valid data.
+setCustomValidity()	Sets the validationMessage property of an input element.
 
 
 
@@ -80,8 +84,8 @@ function myFunction() {
 
 
 
-
 The rangeUnderflow Property
+
 <input id="id1" type="number" min="100">
 <button onclick="myFunction()">OK</button>
 
